@@ -6,7 +6,7 @@ A powerful Neovim setup based on [LazyVim](https://github.com/LazyVim/LazyVim) w
 
 - **Multi-Language LSP Support**:
   - C/C++ (clangd)
-  - JavaScript/TypeScript (esling) : working on tsserver
+  - JavaScript/TypeScript (eslint) : working on tsserver
   - HTML/CSS
   - Ruby (solargraph) : working on it, sofar not working so good
   - Rust (rust-analyzer)
