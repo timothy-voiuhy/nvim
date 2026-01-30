@@ -30,10 +30,11 @@ A powerful Neovim setup based on [LazyVim](https://github.com/LazyVim/LazyVim) w
 
 1. Make sure you have Neovim 0.8+ installed
 2. Clone this repository to your Neovim config directory:
+3. Don't forget to back up the old config. 
    ```
-   git clone https://github.com/timothy-voiuhy/nvim-config ~/.config/nvim
+   git clone https://github.com/timothy-voiuhy/nvim ~/.config/nvim
    ```
-3. Start Neovim and let it install plugins automatically:
+4. Start Neovim and let it install plugins automatically:
    ```
    nvim
    ```
