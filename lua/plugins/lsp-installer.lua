@@ -1,6 +1,6 @@
 return {
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     priority = 100,  -- Ensure Mason loads early
     config = function()
       require("mason").setup({
@@ -34,7 +34,7 @@ return {
       })
     end,
     dependencies = {
-      "williamboman/mason.nvim",
+      "mason-org/mason.nvim",
       "neovim/nvim-lspconfig",
     },
   },
@@ -42,7 +42,7 @@ return {
     "neovim/nvim-lspconfig",
     priority = 80,  -- Load after Mason and Mason-lspconfig
     dependencies = {
-      "williamboman/mason.nvim",
+      "mason-org/mason.nvim",
       "williamboman/mason-lspconfig.nvim",
     },
   },
@@ -68,7 +68,7 @@ return {
       })
     end,
     dependencies = {
-      "williamboman/mason.nvim",
+      "mason-org/mason.nvim",
     },
   },
 } 
